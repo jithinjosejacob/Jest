@@ -8,7 +8,8 @@ const carStock = [
 describe('Suite containing matchers',()=>{
 
     it('Using to match as string matchers',()=>{
-        expect('Liverpool').toMatch(/pool/)
+        expect('Liverpool').toMatch(/pool/);
+        process.env.ZMATCH_NEW = 'pool';
     })
 
     it('Using truthiness matchers',()=>{

@@ -28,7 +28,9 @@ describe('SnapShot Testing',()=>{
     it('Snapshot - Return all item with matching id',()=>{
         expect (filterItemStock(itemStock, 'Id' ,'1')).toMatchSnapshot()
     })
+    
     it('Snapshot - Return all items with matching Name',()=>{
         expect (filterItemStock(itemStock, 'ItemName' ,'Socks')).toMatchSnapshot()
     })
+
 })
