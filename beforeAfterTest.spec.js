@@ -9,6 +9,7 @@ describe('New account creation checks',() =>{
         const account = 'account1'
         expect(account).toEqual('account1')
     })
+    
     it('New account 2 created',() =>{
         const account = 'account2'
         expect(account).toEqual('account2')
